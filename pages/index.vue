@@ -2,7 +2,6 @@
   <div>
   <!-- <router-link to="/users">ROuterlink</router-link> -->
   <nuxt-link to="/users">UsersNuxt</nuxt-link>
-  <nuxt-link to="/products">Product page</nuxt-link>
   </div>
 </template>
 
