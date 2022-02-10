@@ -1,8 +1,8 @@
 <template>
     <div>
-        <nuxt-child />
         <input type="text" v-model="userId">
         <button @click="onLoadUser">Load User</button>
+        <nuxt-child />
     </div>
 </template>
 
@@ -17,6 +17,7 @@ export default {
         onLoadUser() {
             this.$router.push('/users/' + this.userId)
         }
-    }
+    },
+    layout: 'users', // you can set a custom layout for the error page
 }
 </script>
